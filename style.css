@@ -1,0 +1,99 @@
+@font-face {
+  font-family: FigTree;
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: FigTree-bold;
+  src: url(assets/fonts/static/Figtree-SemiBold.ttf);
+}
+@font-face {
+  font-family: Figtree-Extra;
+  src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
+  --yellow: hsl(47, 88%, 63%);
+}
+
+.attribution {
+  font-size: 11px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: Figtree, sans-serif;
+  background-color: var(--yellow);
+  font-size: 16px;
+}
+
+.container {
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 16vh;
+  border: var(--black) 1px solid;
+  border-radius: 1rem;
+  background-color: var(--white);
+  box-shadow: 10px 10px 0 var(--black);
+}
+
+.header-img {
+  padding: 1rem;
+  width: 100%;
+}
+
+.h2-yellow {
+  background-color: var(--yellow);
+  font-size: 14px;
+  margin-left: 1rem;
+  padding: 5px 14px;
+  width: 27%;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.p-black {
+  font-size: 14px;
+  margin: 1rem;
+}
+
+h1 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 1rem;
+}
+.paragraph {
+  font-size: 14px;
+  color: var(--grey);
+  margin: 1rem;
+}
+.flex {
+  display: flex;
+}
+
+.greg {
+  height: 2rem;
+  margin: 1rem;
+}
+
+.p-bold {
+  margin: 1.25rem 0 1rem 0;
+  font-size: 14px;
+  font-weight: bold;
+}
